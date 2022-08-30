@@ -44,11 +44,6 @@ compileBerkeleyDB() {
 }
 
 compileBolivarcoinCore() {
-	wget https://github.com/BOLI-Project/BolivarCoin/archive/refs/tags/v2.0.0.2.tar.gz
-    tar -xzf v2.0.0.2.tar.gz
-
-    cd BolivarCoin-2.0.0.2
-
     echo ""
     echo -e "\n----------> EXECUTING AUTOGEN"
     ./autogen.sh
